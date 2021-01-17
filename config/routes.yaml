@@ -1,0 +1,45 @@
+home:
+  path: /
+  controller: App\Controller\HomeController::home
+
+mlegale:
+    path: /Mention_legale
+    controller: App\Controller\MentionLegaleController::mlegale
+
+shop:
+    path: /Boutique
+    controller: App\Controller\ShopController::shop
+
+# creation de routes pour chaques biere
+
+arrache:
+    path: /Variety/arrache_coeur
+    controller: App\Controller\ArracheCoeurController::arrache
+
+cru1910:
+    path: /Variety/cru_1910
+    controller: App\Controller\Cru1910Controller::cru1910
+
+cru1924:
+    path: /Variety/cru_1924
+    controller: App\Controller\Cru1924Controller::cru1924
+
+fetelamour:
+    path: /Variety/fete_l_amour
+    controller: App\Controller\FeteLAmourController::fetelamour
+
+gitane:
+    path: /Variety/gitane
+    controller: App\Controller\GitaneController::gitane
+
+lucite:
+    path: /Variety/lucite
+    controller: App\Controller\LuciteController::lucite
+
+picaro:
+    path: /Variety/picaro
+    controller: App\Controller\PicaroController::picaro
+
+volute:
+    path: /Variety/volute
+    controller: App\Controller\VoluteController::volute
